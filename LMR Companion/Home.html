@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMR Companion</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+  <div id="backgroundImage">
+
+    <div class="main">
+
+    </div>
+  <div class = "container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light">  
+    <a class="navbar-brand" href="Home.html">
+    <img src="LMR (2).png" width="90" height="90" alt="" id="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item" id = "notes">
+          <a class="nav-link" href="notes.html">Notes <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" id = "videos">
+          <a class="nav-link" href="videos.html">Videos <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" id = "courseinfo">
+          <a class="nav-link" href="https://syllabus.gtu.ac.in/Syllabus.aspx?tp=BE" target="_blank">Course Info</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <h1>
+    <i class="fas fa-quote-left"></i>
+    <span class="quote" id="quote"></span>
+    <i class="fas fa-quote-right"></i>
+    </h1>
+    <p class="author" id="author"></p>
+    
+    <hr/>
+    <div class="buttons">
+      <button class="next" onclick="getNewQuote()">Next quote</button>
+    </div>
+  </div>
+
+<!--LINK CUSTOM JS FILE-->
+  <script src="home.js"></script>
+ </div>
+</body>
+</html>
